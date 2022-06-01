@@ -20,3 +20,5 @@
 11. enter your token
 12. for save pack type: "vsce package"
 13. for publish pack type: "vsce publish"
+    
+   # All Done! You have New Package In VSC Store For Download
