@@ -2,7 +2,7 @@
 
 # Name On Store:  Full Stack Pack
 
-## Instructions How to activate "Prettier - Code formatter"
+** Instructions How to activate "Prettier - Code formatter"
  
 1. go to settings
 2. search = "format on save"
