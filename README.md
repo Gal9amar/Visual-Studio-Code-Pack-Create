@@ -16,8 +16,15 @@
     - Set Scopes to Custom defined and choose the Marketplace > Manage scope
     - screen shot: https://code.visualstudio.com/assets/api/working-with-extensions/publishing-extension/token2.png
 8. Select Create and you'll be presented with your newly created Personal Access Token. Copy it, you'll need it to create a publisher.
-10. vsce login <publisher name>
+10. run on terminal: vsce login <publisher name>
 11. enter your token
+12. go to package.json file
+13. in: "extensionPack" paste the names of "extension" that you want to be in your pack for exm: 
+    "esbenp.prettier-vscode", (for prettier extension)
+    * you can find all the packages names on the market site: https://marketplace.visualstudio.com/vscode
+    * click on the extension you want, 
+    * look for "more info"
+    * on Unique Identifier copy the pack name and paste on your file.
 12. for save pack type: "vsce package"
 13. for publish pack type: "vsce publish"
     
