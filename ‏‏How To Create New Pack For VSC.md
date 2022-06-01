@@ -1,0 +1,22 @@
+
+## Instructions To Create Pcckage
+
+1. install node.js on pc: https://nodejs.org/en/
+2. run this on power shell/vsc terminal: "npm install -g yo generator-code"
+* if there is an ERROR: "running scripts is disabled on this system"
+* run this on shell as admnin: "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+3. type: yo code
+4. select: "New Extension Pack" and fill the fields
+5. Get a Personal Access Token: create your own organization- https://docs.microsoft.com/azure/devops/organizations/accounts/create-organization
+6. screen shot: https://code.visualstudio.com/assets/api/working-with-extensions/publishing-extension/token1.png
+7. On the Personal Access Tokens page, select New Token to create a new Personal Access Token and set the following details:
+    - Give it a Name
+    - Set Organization to All accessible organizations
+    - Optionally extend its expiration date
+    - Set Scopes to Custom defined and choose the Marketplace > Manage scope
+    - screen shot: https://code.visualstudio.com/assets/api/working-with-extensions/publishing-extension/token2.png
+8. Select Create and you'll be presented with your newly created Personal Access Token. Copy it, you'll need it to create a publisher.
+10. vsce login <publisher name>
+11. enter your token
+12. for save pack type: "vsce package"
+13. for publish pack type: "vsce publish"
