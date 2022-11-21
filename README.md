@@ -28,4 +28,13 @@
 12. for save pack type: "vsce package"
 13. for publish pack type: "vsce publish"
     
+- how to run old package
+
+1. repet steps 1 and 2
+2. in terminal: npm install -g vsce
+3. create new token (if old one expaire) get into https://dev.azure.com login to your account and create new token
+4. in terminal: vsce login (publisher name)
+5. past to new token number.
+6. done!
+    
    # All Done! You have New Package In VSC Store For Download
