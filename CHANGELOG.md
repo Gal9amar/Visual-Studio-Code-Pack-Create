@@ -1,4 +1,6 @@
 # Updates
+- 4.1.7 removing terminal extension (stop working)
+
 - 3.0.0 minor updates and new logo
 
 - 1.0.0 added package - Terminal
